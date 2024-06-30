@@ -1,11 +1,27 @@
-//complete this code
-class Animal {}
+const animal = new Animal("Unknown");
+console.log(animal.species); 
+animal.makeSound(); 
+// const animal = new Animal("Unknown");
+// console.log(animal.species); 
+// animal.makeSound(); 
 
-class Dog extends Animal {}
+const cat = new Cat("Cat");
+console.log(cat.species); 
+cat.makeSound(); 
+cat.purr();
+// const cat = new Cat("Cat");
+// console.log(cat.species); 
+// cat.makeSound(); 
+// cat.purr();
 
-class Cat extends Animal {}
+const dog = new Dog("Dog");
+console.log(dog.species); 
+dog.makeSound(); 
+dog.bark(); 
+// const dog = new Dog("Dog");
+// console.log(dog.species); 
+// dog.makeSound(); 
+// dog.bark(); 
 
 // Do not change the code below this line
 window.Animal = Animal;
-window.Dog = Dog;
-window.Cat = Cat;
